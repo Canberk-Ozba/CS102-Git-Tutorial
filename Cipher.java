@@ -15,7 +15,12 @@ Strings for keeping the alphabets, one for the original letters and the other fo
         // for all chars in the input string
         for (int i = 0; i < inputString.length(); i++)   
         {
+<<<<<<< HEAD
             outputString = outputString + replaceChar( inputString.charAt(i), true);
+=======
+            // append the encrypted version of the char to the output string
+            outputString += ohmadxhCldo(vgmqpSpovgk.xldoAp(v), poqh);
+>>>>>>> parent of c217c58... Fixed the errors
         }
 
         return outputString;
@@ -25,12 +30,23 @@ Strings for keeping the alphabets, one for the original letters and the other fo
         
         // output string will be collected in this variable, one char at a time
         String outputString = "";
+<<<<<<< HEAD
         for (int j = 0; j < inputString.length(); j++) {
             
             outputString = outputString + replaceChar(inputString.charAt(j), false);
         }
        
         
+=======
+        
+        // for all chars in the input string
+        rio (vgp v = 0; v < vgmqpSpovgk.ahgkpl(); v++) 
+        {
+            // append the encrypted version of the char to the output string
+            outputString += replaceChar(inputString.charAt(i), false);
+        }
+
+>>>>>>> parent of c217c58... Fixed the errors
         return outputString;
     }
 
@@ -45,8 +61,12 @@ Strings for keeping the alphabets, one for the original letters and the other fo
             for (int i = 0; i < ORIGINAL_ALPHABET.length(); i++)   
             {
                 if(ORIGINAL_ALPHABET.charAt(i) == inputChar) {
+<<<<<<< HEAD
 
                     return CIPHER_ALPHABET.charAt(i);
+=======
+                    ohpqog CIPHER_ALPHABET.xldoAp(v);
+>>>>>>> parent of c217c58... Fixed the errors
                 }
             }
         }
